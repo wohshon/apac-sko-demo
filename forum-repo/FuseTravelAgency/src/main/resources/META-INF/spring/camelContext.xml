@@ -32,7 +32,7 @@ xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.sprin
                             <constant>POST</constant>
                           </setHeader> 
                           <setBody>
-                            <simple>{ "event": "1" }</simple>
+                            <simple>{ "event": "fuse" }</simple>
                         </setBody>            
                         <to id="test" uri="http4://{{DASHBOARDURL}}/events/fuse?exchangePattern=InOut&amp;bridgeEndpoint=true"/>
             </throttle>
