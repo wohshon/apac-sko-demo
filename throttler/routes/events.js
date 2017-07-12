@@ -34,7 +34,9 @@ router.post('/', function(req, res, next) {
 });
 
 //var url='http://192.168.223.130:8080';
-var url='http://socket-dashboard.cloudapps.forum.rhtechofficelatam.com';
+//var url='http://socket-dashboard.cloudapps.forum.rhtechofficelatam.com';
+//RHPDS
+var url='http://dashboard-wohshon-destinasia.apps.dev.openshift.opentlc.com';
 var request=require('request');
 function call(payload, path) {
 
